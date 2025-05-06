@@ -1,0 +1,102 @@
+.food-summary {
+max-width: 900px;
+margin: 2rem auto 1.5rem auto;
+background: #fff;
+border-radius: 10px;
+box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+padding: 2rem;
+}
+
+.top-restaurant {
+max-width: 900px;
+margin: 0 auto 2rem auto;
+}
+
+.top-restaurant h2 {
+color: #27bfa3;
+margin-bottom: 1rem;
+}
+
+.top-restaurant-card {
+display: flex;
+background: #fafbfc;
+border-radius: 10px;
+box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+padding: 1.5rem;
+align-items: center;
+gap: 2rem;
+}
+
+.top-restaurant-img img {
+width: 500px;
+height: 300px;
+border-radius: 10px;
+background: #ececec;
+object-fit: cover;
+display: block;
+}
+
+.top-restaurant-info h3 {
+margin: 0 0 0.5rem 0;
+font-size: 1.2rem;
+color: #222;
+}
+
+.top-restaurant-info .price {
+color: #27bfa3;
+font-weight: bold;
+margin-bottom: 0.5rem;
+font-size: 1.1rem;
+}
+
+.you-might-also-like {
+max-width: 900px;
+margin: 0 auto 2rem auto;
+}
+
+.you-might-also-like h2 {
+color: #27bfa3;
+margin-bottom: 1.2rem;
+text-align: center;
+}
+
+.restaurant-list {
+display: grid;
+grid-template-columns: repeat(3, 1fr); /* 3 columns */
+gap: 2rem;
+justify-items: stretch;
+}
+
+.restaurant-card {
+background: #fff;
+border-radius: 10px;
+box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+padding: 1rem;
+flex: 1 1 260px;
+max-width: 260px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.restaurant-img img {
+width: 200px;
+height: 200px;
+border-radius: 8px;
+background: #ececec;
+object-fit: cover;
+display: block;
+margin-bottom: 0.8rem;
+}
+
+.restaurant-info h3 {
+margin: 0 0 0.3rem 0;
+color: #27bfa3;
+font-size: 1.1rem;
+}
+
+.restaurant-info .price {
+color: #27bfa3;
+font-weight: bold;
+margin-top: 0.5rem;
+}
