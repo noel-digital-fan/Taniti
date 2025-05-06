@@ -1,9 +1,16 @@
+.actv-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+
 .activities-summary {
     max-width: 900px;
     margin: 2rem auto 1.5rem auto;
     background: #fff;
     border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
     padding: 2rem;
 }
 
@@ -25,19 +32,37 @@
 }
 
 .activities-section {
-margin: 3rem auto 2rem auto;
-width: 100vw;
-height: fit-content;
+    background: #fff;
+    border-radius: 10px;
+    margin: 3rem auto 2rem auto;
+    width: 900px;
+    height: fit-content;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+    
+.activities-section h2 {
+    color: #27bfa3;
+    margin-bottom: 1.2rem;
+}
+
+.activities-list {
+background: #fff;
 border-radius: 10px;
-box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+max-width: 900px;
+height: auto;
 padding: 2rem;
+margin-bottom: 2rem;
 display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
 }
 
-.activities-section h2 {
+.activities-list h2 {
 color: #27bfa3;
 margin-bottom: 1.2rem;
 }

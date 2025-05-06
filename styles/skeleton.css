@@ -1,9 +1,15 @@
 body {
 font-family: 'Segoe UI', Arial, sans-serif;
-background: #f5f8fa;
+background: #faeabb!important;
 color: #222;
 margin: 0;
 padding: 0;
+}
+
+main {
+    .intro-section, .hero-image, .get-started, .feature-card, .faq, .food-summary, .top-restaurant-card, .restaurant-card, .lodging-summary, .lodging-card, .activities-summary, .activities-section, .activities-list, .carousel-img, .faq-section {
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.596);
+    }
 }
 
 h1 {
